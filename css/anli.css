@@ -1,0 +1,192 @@
+.cqh{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.cqh_js{
+    width:70%;
+    margin: 0 auto;
+    height: 100%;
+    background:url("../images/images/cqh_bg.png") no-repeat bottom center;
+    background-size:100%;
+    position: relative;
+    top: 69px;
+    overflow: hidden;
+}
+.cqh_js p:first-child{
+    font-size:2em;
+    position: relative;
+    top:100px;
+}
+.cqh_js p:last-child{
+    font-size:12px;
+    line-height: 24px;
+    position: relative;
+    top:120px;
+}
+
+.xjh{
+    width:70%;
+    margin: 0 auto;
+    height: 100%;
+    background: url("../images/images/xjh_bg.png") no-repeat left bottom;
+    position: relative;
+    top:69px;
+    overflow: hidden;
+}
+.xjh p{
+    text-align: right;
+}
+.xjh p:first-child{
+    margin-top:30%;
+    font-size: 2em;
+}
+.xjh p:last-child{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.anli_page3{
+    background: url("../images/images/anli_page3_bg.jpg") no-repeat bottom #000000;
+    background-size: 100%;
+}
+.anli_page3_nr{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top:45%;
+}
+.anli_page3_nr p{
+    text-align: right;
+}
+.anli_page3_nr p:first-child{
+    font-size: 2em;
+}
+.anli_page3_nr p:last-child{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.anli_page4{
+    background: url("../images/images/anli_page4_bg.jpg") no-repeat bottom center #AC0401;
+    background-size: 100%;
+    position: relative;
+}
+.fanye{
+    position: relative;
+    top:13%;
+}
+.fanye p{
+    text-align: center;
+    height: 24px;
+    width:250px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.fanye p i{
+    display: inline-block;
+    background: no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+.fanye p i.before_page{
+    background: url("../images/images/al_page4_before_page_icon.png");
+    float: left;
+}
+.fanye p i.next_page{
+    background: url("../images/images/al_page4_next_page_icon.png");
+    float: right;
+}
+.fanye p span{
+    display: inline-block;
+    cursor: pointer;
+}
+.fanye p span.fy_span_1{
+    width: 56px;
+    height: 24px;
+    background-color:#FFFFFF;
+    color: #AB0300;
+}
+.fanye p small{
+    margin:0 10px;
+}
+.gdal{
+    width:70%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.gdal ul{
+    width:840px;
+    width:1200px\9;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.gdal ul li{
+    width:31.6%;
+    float: left;
+    margin-bottom: 20px;
+    margin-right:20px;
+}
+.gdal ul li img{
+    max-width: 100%;
+}
+.gdal ul li:nth-child(3n){
+    margin-right:0;
+}
+.anli_page4_footer{
+    width: 100%;
+    background: url("../images/footer-bg.jpg") repeat-x;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    bottom:0;
+}
+.anli_page4_footer ul{
+    width:1053px;
+    height:120px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.anli_page4_footer ul li{
+    width:auto;
+    height: 80px;
+    float: left;
+    background: url("../images/footer-div-bg.jpg") no-repeat right center;
+    padding-top: 40px;
+}
+.anli_page4_footer ul li:nth-child(2){
+    padding-right: 50px;
+    margin-left:50px;
+}
+.anli_page4_footer ul li:nth-child(3){
+    padding-left: 50px;
+}
+.anli_page4_footer ul li.anli_page4_footer_last_li{
+    text-align: right;
+    background-image: none;
+}
+.anli_page4_footer1_left,.anli_page4_footer1_right{
+    float: left;
+}
+.anli_page4_footer1_right{
+    margin-left: 20px;
+    padding-right: 50px;
+}
+.anli_page4_footer1_right dl{
+    height: auto;
+    overflow: hidden;
+}
+.anli_page4_footer1_right dl dt{
+    float: left;
+    border-right: 1px solid #9FA0A0;
+    padding: 0 10px;
+    margin:5px 0;
+}
+.anli_page4_footer1_right dl dt:last-child{
+    border: 0;
+}
+.anli_page4_footer1_right p{
+    line-height: 25px;
+    padding-left: 10px;
+}

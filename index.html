@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>点博科技</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="css/index.css" />
+<link media="screen and (max-width:1199px)" rel="stylesheet" href="css/middle-screen.css" />
+<link media="screen and (min-width:1200px)" rel="stylesheet" href="css/larger-screen.css" />
+    <link media="screen and (width:1366px)" rel="stylesheet" href="css/screen-1366.css" />
+    <link media="screen and (width:1440px)" rel="stylesheet" href="css/1440X900.css" />
+    <link media="screen and (width:1920px)" rel="stylesheet" href="css/1920X1080.css" />
+
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+<script>
+$(function(){	
+	$.fn.fullpage({
+		verticalCentered: false,
+		anchors: ['page1', 'page2', 'page3', 'page4'],
+		navigation: true,
+	});
+});
+
+function indfou(objul,objdiv,n){
+ var bbli = document.getElementById(objul).getElementsByTagName("li");
+ var bbdiv = document.getElementById(objdiv).getElementsByTagName("dl");
+ for(var i=0; i<bbli.length;i++){
+  if(i==n){
+   bbli[i].className = "oncl";
+   bbdiv[i].style.display = "block";
+    }else{
+   bbli[i].className = "";
+   bbdiv[i].style.display = "none";
+  }
+  }
+}
+</script>
+</head>
+
+<body>
+<div class="Top">
+  <div class="Maindiv">
+    <div class="Logo Fl"><a href="#"><img src="images/logo.png" alt="dianbo点博"/></a></div>
+    <div class="Menu Fl">
+      <li><a href="index.html"> 首页</a></li>
+      <li>
+        <dl>
+          <dd><a href="hangyeyingxiao.html"> 行业营销</a></dd>
+          <dd><a href="shangjiadingzhi.html"> 商家定制</a></dd>
+          <dd><a href="fulijili.html"> 福利激励</a></dd>
+          <dd><a href="fuwudingzhiliucheng.html"> 服务定制流程</a></dd>
+          <dd><a href="fuwubaozhang.html"> 服务保障</a></dd>
+        </dl>
+        产品</li>
+      <li>
+        <a href="anli.html" class="anli_color">
+        案例</a></li>
+      <li>
+        <dl>
+            <dd><a href="about_db.html">联系我们</a> </dd>
+            <dd><a href="join_us.html">加入我们</a> </dd>
+        </dl>
+        关于点博</li>
+    </div>
+    <div class="Search Fr">
+      <input type="search" placeholder="行业行销">
+      <button></button>
+    </div>
+  </div>
+</div>
+
+<div id="superContainer">
+	<div data-anchor="page1" class="section section1">
+		<div class="bg"><img src="images/section1.gif" alt=""></div>
+        <div class="ind-bg11"></div>
+        <div class="page1-rghht">
+        <div class="ind-bg12"></div>
+        <div class="ind-bg13"></div>
+        <div class="ind-bg14"></div>
+        <div class="ind-bg15"></div>
+        </div>
+        <a class="godown" href="#page2"><span></span></a>
+	</div>
+
+    <div data-anchor="page2" class="section section2 index_page2">
+        <h3 class="num1">商家定制</h3>
+        <p class="p1">通过互联网大数据分析，结合商家特点<br/>提供"平台"+"支付"+"营销"移动互联网综合服务方案</p>
+        <div class="line1"></div>
+        
+        <h3 class="num2">行业营销</h3>
+        <p class="p2">改变传统企业福利机制，充分利用welfare福利中心<br/>深度提升员工幸福指数，提高员工想象力、创造了、凝聚力</p>
+        <div class="line2"></div>
+        
+        <h2 class="num3">福利激励</h2>
+        <p class="p3">改变传统企业福利机制，充分利用welfare福利中心<br/>深度提升员工幸福指数，提高员工想象力、创造了、凝聚力</p>
+        <div class="line3"></div>
+        <a class="godown" href="#page3"><span></span></a>
+    </div>
+
+    <div data-anchor="page3" class="section section3 index_page3">
+        <ul id="ulnum1" class="numul">
+        	<li class="oncl" onMouseMove="indfou('ulnum1','divnum1','0')"><div class="bgnum1"></div><p>行业营销</p></li>
+        	<li onMouseMove="indfou('ulnum1','divnum1','1')"><div class="bgnum2"></div><p>福利激励</p></li>
+        	<li onMouseMove="indfou('ulnum1','divnum1','2')"><div class="bgnum3"></div><p>商家定制</p></li>
+        </ul>
+        <div id="divnum1" class="numdiv">
+        	<dl style="display:block;">
+            	<i></i>
+            	<dt><img src="images/xyk.png"/></dt>
+                <dd>为金融、运营商等行业伙伴，提供一站式营销解决方案。涵盖多维度、多阶段营销体系，直击行业痛点。</dd>
+            </dl>
+        	<dl style="display:none;">
+            	<i></i>
+            	<dt><img src="images/xyk.png"/></dt>
+                <dd>福利激励</dd>
+            </dl>
+        	<dl style="display:none;">
+            	<i></i>
+            	<dt><img src="images/xyk.png"/></dt>
+                <dd>商家定制</dd>
+            </dl>
+        </div>
+        <a class="godown" href="#page4"><span></span></a>
+    </div>
+
+    <div data-anchor="page4" class="section section4 index_page4">
+        <div class="ind-bg16">
+        	<p>优质合作媒体</p>
+            深度融入KPI，提供一站式营销解决方案<br/>涵盖多维度、多阶段营销体系，直击行业痛点深度融入KPI，提供一站式营销解决方案
+        </div>
+        <div class="ind-bg17"></div>
+        
+        <div class="main-four-box">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="address">
+                        <img src="images/footer-ewm.jpg"/>
+                        <div class="ul-p">
+                            <ul>
+                                <li><a href="">关于我们</a></li>
+                                <li><a href="">公司简介</a></li>
+                                <li><a href="">商务合作</a></li>
+                                <li><a href="">加入我们</a></li>
+                                <li><a href="">合作伙伴</a></li>
+                            </ul>
+                            <p>地址：重庆市九龙坡区科城路71号留学生创业园A2栋6-4</p>
+                        </div>
+                    </div>
+                        <div class="tell">
+                            <span>联系电话：400-023-6908</span><br/>
+                            <span>邮箱：hyvip@.qq.com</span>
+                        </div>
+                        <div class="email">
+                        &copy;2013-2015点博科技<br/>渝ICP15112145		
+                        </div>
+                 </div>
+            </div>
+         </div>
+    </div> 
+    
+</div>
+
+
+<!--[if IE]>
+<script type="text/javascript" src="${pageContext.request.contextPath}/PIE-1.0.0/PIE.js"></script>
+<![endif]-->
+
+ 
+if (window.PIE) {
+        $('.css3,.form-control').each(function() {
+            PIE.attach(this);
+        });
+}
+
+ 
+
+</body>
+</html>

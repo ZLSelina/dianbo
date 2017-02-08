@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>案例</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css"  href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/anli.css"/>
+    <link media="screen and (max-width:1199px)" rel="stylesheet" href="css/middle-screen.css" />
+    <link media="screen and (min-width:1200px)" rel="stylesheet" href="css/larger-screen.css" />
+    <link media="screen and (width:1366px)" rel="stylesheet" href="css/screen-1366.css" />
+    <link media="screen and (width:1440px)" rel="stylesheet" href="css/1440X900.css" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+    <script>
+        $(function(){
+            $.fn.fullpage({
+                verticalCentered: false,
+                anchors: ['page1', 'page2', 'page3', 'page4'],
+                navigation: true,
+            });
+        });
+
+        function indfou(objul,objdiv,n){
+            var bbli = document.getElementById(objul).getElementsByTagName("li");
+            var bbdiv = document.getElementById(objdiv).getElementsByTagName("dl");
+            for(var i=0; i<bbli.length;i++){
+                if(i==n){
+                    bbli[i].className = "oncl";
+                    bbdiv[i].style.display = "block";
+                }else{
+                    bbli[i].className = "";
+                    bbdiv[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div class="Top">
+    <div class="Maindiv">
+        <div class="Logo Fl"><a href="#"><img src="images/logo.png" alt="dianbo点博"/></a></div>
+        <div class="Menu Fl">
+            <li><a href="index.html"> 首页</a></li>
+            <li>
+                <dl>
+                    <dd><a href="hangyeyingxiao.html"> 行业营销</a></dd>
+                    <dd><a href="shangjiadingzhi.html"> 商家定制</a></dd>
+                    <dd><a href="fulijili.html"> 福利激励</a></dd>
+                    <dd><a href="fuwudingzhiliucheng.html"> 服务定制流程</a></dd>
+                    <dd><a href="fuwubaozhang.html"> 服务保障</a></dd>
+                </dl>
+                产品</li>
+            <li>
+                <dl>
+                    <dd><a href="#page1"> 重庆惠</a></dd>
+                    <dd><a href="#page2"> 新疆惠</a></dd>
+                    <dd><a href="#page3"> 咖啡银行</a></dd>
+                    <dd><a href="#page4">更多案例</a></dd>
+                </dl>
+                案例</li>
+            <li>
+                <dl>
+                    <dd><a href="about_db.html">联系我们</a> </dd>
+                    <dd><a href="join_us.html">加入我们</a> </dd>
+                </dl>
+                关于点博</li>
+        </div>
+        <div class="Search Fr">
+            <input type="search" placeholder="行业行销">
+            <button></button>
+        </div>
+    </div>
+</div>
+
+<div id="superContainer">
+    <div data-anchor="page1" class="section section1 cqh">
+        <div class="cqh_js">
+        <p>重庆惠</p>
+        <p>“重庆惠”是重庆点博科技为建设银行重庆分行大力打造的手机银行用户专属回馈平台。<br> 台旨在为建设银行重庆用户提供生活服务与回馈，覆盖新用户、老用户、高端用户的电子银行、办卡用卡及金融产品服务。<br>
+            用户登陆建行手机客户端-悦生活-手机商盟-重庆惠即可享受专属优惠。<br>
+            “重庆惠”有效帮助了建设银行重庆分行实现每日新办手机银行用户的激活、老用户O2O消费，高端用户福利回馈，已成为大多建行重庆用户离不开的便利生活平台。</p>
+        </div>
+        <a class="godown" href="#page2"><span></span></a>
+    </div>
+
+    <div data-anchor="page2" class="section section2 cqh">
+       <div class="xjh">
+           <p>新疆惠</p>
+           <p>“新疆惠”是建设银行新疆区分行联合重庆点博公司<br>为建行新疆手机银行用户建立专属回馈平，<br/>通过体验营销的模式，打造手机银行应用场景。<br>
+               “新疆惠"平台是建行新疆分行在手机银行客户激活的重要平台。</p>
+       </div>
+        <a class="godown" href="#page3"><span></span></a>
+    </div>
+
+    <div data-anchor="page3" class="section section3 anli_page3">
+        <div class="anli_page3_nr">
+        <p>建行咖啡银行微信公众平台</p>
+        <p> 咖啡银行微信公众平台 是点博科技为建行与太平洋咖啡打造的专属特色平台。<br>
+            通过“零售业务+个性消费体验”、“移动支付+增值服务”“系统后台+渠道延生”“快速便捷的社区金融<br>服务、商圈金融服务”，融合了定位点餐、外卖服务、积分兑换等技术功能，打造的“咖啡+银行”个性化闭<br>环消费体验案例，实现区域金融服务模式创新</p>
+        </div>
+        <a class="godown" href="#page4"><span></span></a>
+    </div>
+
+    <div data-anchor="page4" class="section section4 anli_page4">
+        <div class="fanye">
+            <p><i class="before_page"></i>&nbsp;&nbsp;&nbsp;&nbsp;第&nbsp;&nbsp;<span class="fy_span_1">1</span>&nbsp;&nbsp;页&nbsp;&nbsp;<small>共5页</small><i class="next_page"></i></p>
+        </div>
+        <div class="gdal">
+            <ul>
+                <li><img src="images/images/gdal_1.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_2.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_3.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_4.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_5.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_6.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_7.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_8.jpg" alt=""/></li>
+                <li><img src="images/images/gdal_9.jpg" alt=""/></li>
+            </ul>
+        </div>
+        <div class="anli_page4_footer">
+            <ul>
+                <li>
+                    <div class="anli_page4_footer1_left"><img src="images/footer-ewm.jpg" alt=""/></div>
+                    <div class="anli_page4_footer1_right">
+                        <dl>
+                            <dt>关于我们</dt>
+                            <dt>公司简介</dt>
+                            <dt>商务合作</dt>
+                            <dt>加入我们</dt>
+                            <dt>合作伙伴</dt>
+                        </dl>
+                        <p>地址：重庆市九龙坡区科城路71号留学生创业园A2栋6-4</p>
+                    </div>
+                </li>
+                <li><p>联系电话：400-023-6908</p><small>联系邮箱：hyvip@vip.qq.com</small></li>
+                <li class="anli_page4_footer_last_li">&copy;2003-2016点博科技<br>渝ICP15112145</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--[if IE]>
+<script type="text/javascript" src="${pageContext.request.contextPath}/PIE-1.0.0/PIE.js"></script>
+<![endif]-->
+
+
+if (window.PIE) {
+$('.css3,.form-control').each(function() {
+PIE.attach(this);
+});
+}
+
+
+
+</body>
+</html>

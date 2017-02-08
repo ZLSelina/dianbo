@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>点博</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css"  href="css/index.css">
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+
+<script>
+$(function(){	
+	$.fn.fullpage({
+		verticalCentered: false,
+		anchors: ['page1', 'page2', 'page3', 'page4'],
+		navigation: true,
+		navigationTooltips: ['f1', 'f2', 'f3', 'f4']
+	});
+});
+
+function indfou(objul,objdiv,n){
+ var bbli = document.getElementById(objul).getElementsByTagName("li");
+ var bbdiv = document.getElementById(objdiv).getElementsByTagName("dl");
+ for(var i=0; i<bbli.length;i++){
+  if(i==n){
+   bbli[i].className = "oncl";
+   bbdiv[i].style.display = "block";
+    }else{
+   bbli[i].className = "";
+   bbdiv[i].style.display = "none";
+  }    
+  }
+}
+</script>
+</head>
+
+<body>
+<div class="Top">
+  <div class="Maindiv">
+    <div class="Logo Fl"><img src="images/logo.png" alt="dianbo点博"/></div>
+    <div class="Menu Fl">
+      <li class="Active">首页</li>
+      <li>
+        <dl>
+          <dd>菜单一</dd>
+          <dd>菜单二</dd>
+          <dd>菜单三</dd>
+        </dl>
+        产品</li>
+      <li>
+        <dl>
+          <dd>菜单一</dd>
+          <dd>菜单二</dd>
+          <dd>菜单三</dd>
+        </dl>
+        案例</li>
+      <li>
+        <dl>
+          <dd>菜单一</dd>
+          <dd>菜单二</dd>
+          <dd>菜单三</dd>
+        </dl>
+        关于点博</li>
+    </div>
+    <div class="Search Fr">
+      <input type="search" placeholder="行业行销">
+      <button></button>
+    </div>
+  </div>
+</div>  
+
+<div style="top:0px;" id="superContainer">
+	<div data-anchor="page1" class="section section1">
+		<div class="bg"><img src="images/section1.gif" alt=""></div>
+        <div class="ind-bg11"></div>
+        <div class="ind-bg12"></div>
+        <div class="ind-bg13"></div>
+        <div class="ind-bg14"></div>
+        <div class="ind-bg15"></div>
+	</div>
+
+    <div data-anchor="page2" class="section section2">
+        <div class="bg"><img src="images/section2.png" alt=""></div>
+        <h3 class="num1">商家定制</h3>
+        <p class="p1">通过互联网大数据分析，结合商家特点<br/>提供"平台"+"支付"+"营销"移动互联网综合服务方案</p>
+        <div class="line1"></div>
+        
+        <h3 class="num2">行业营销</h3>
+        <p class="p2">改变传统企业福利机制，充分利用welfare福利中心<br/>深度提升员工幸福指数，提高员工想象力、创造了、凝聚力</p>
+        <div class="line2"></div>
+        
+        <h2 class="num3">福利激励</h2>
+        <p class="p3">改变传统企业福利机制，充分利用welfare福利中心<br/>深度提升员工幸福指数，提高员工想象力、创造了、凝聚力</p>
+        <div class="line3"></div>        
+    </div>
+
+    <div data-anchor="page3" class="section section3">
+        <div class="bg"><img src="images/section3.png" alt=""></div>
+        <ul id="ulnum1" class="numul">
+        	<li class="oncl" onMouseMove="indfou('ulnum1','divnum1','0')"><div class="bgnum1"></div><p>行业营销</p></li>
+        	<li onMouseMove="indfou('ulnum1','divnum1','1')"><div class="bgnum2"></div><p>福利激励</p></li>
+        	<li onMouseMove="indfou('ulnum1','divnum1','2')"><div class="bgnum3"></div><p>商家定制</p></li>
+        </ul>
+        <div id="divnum1" class="numdiv">
+        	<dl style="display:block;">
+            	<i></i>
+            	<dt><img src="images/xyk.png"/></dt>
+                <dd>为金融、运营商等行业伙伴，提供一站式营销解决方案。涵盖多维度、多阶段营销体系，直击行业痛点。</dd>
+            </dl>
+        	<dl style="display:none;">
+            	<i></i>
+            	<dt><img src="images/xyk.png"/></dt>
+                <dd>福利激励</dd>
+            </dl>
+        	<dl style="display:none;">
+            	<i></i>
+            	<dt><img src="images/xyk.png"/></dt>
+                <dd>商家定制</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div data-anchor="page4" class="section section4">
+        <div class="bg"><img src="images/setction4.jpg" alt=""></div>
+        <div class="ind-bg16">
+        	<p>优质合作媒体</p>
+            深度融入KPI，提供一站式营销解决方案<br/>涵盖多维度、多阶段营销体系，直击行业痛点深度融入KPI，提供一站式营销解决方案
+        </div>
+        <div class="ind-bg17"></div>
+        
+        <div class="main-four-box">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="address">
+                        <img src="images/footer-ewm.jpg"/>
+                        <div class="ul-p">
+                            <ul>
+                                <li><a href="">关于我们</a></li>
+                                <li><a href="">公司简介</a></li>
+                                <li><a href="">商务合作</a></li>
+                                <li><a href="">加入我们</a></li>
+                                <li><a href="">合作伙伴</a></li>
+                            </ul>
+                            <p>地址：重庆市九龙坡区科城路71号留学生创业园A2栋6-4</p>
+                        </div>
+                    </div>
+                        <div class="tell">
+                            <span>联系电话：400-023-6908</span><br/>
+                            <span>邮箱：hyvip@.qq.com</span>
+                        </div>
+                        <div class="email">
+                        &copy;2013-2015点博科技<br/>渝ICP15112145		
+                        </div>
+                 </div>
+            </div>
+         </div>
+    </div> 
+    
+</div>
+
+
+<!--<div class="right" id="fullPage-nav">
+	<ul>
+    	<li data-tooltip="f1"><a  href="#page1"><span></span></a></li>
+    	<li data-tooltip="f2"><a href="#page2"><span></span></a></li>
+        <li data-tooltip="f3"><a href="#page3"><span></span></a></li>
+        <li data-tooltip="f4"><a href="#page4"><span></span></a></li>
+        <li data-tooltip="f5"><a href="#page5"><span></span></a></li>
+     </ul>
+</div> -->
+<div class="Mouse"></div>
+</body>
+</html>

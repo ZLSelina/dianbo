@@ -1,0 +1,30 @@
+/* CSS Document */
+* { margin: 0; padding: 0;}
+body { margin:0; padding:0; color:#FFFFFF; font-family:"microsoft yahei" ; font-size:14px;}
+ul , li , ol , dl , dt , dd , button { margin:0; padding:0; list-style:none; border:0; }
+.Fl { float:left; }
+.Fr { float:right; }
+.Clear { clear:both; }
+.Nb { border:0; }
+.Mt10 { margin-top:10px; }
+.Bsize { box-sizing:border-box; }
+
+.Top {height:70px; background:url(../images/top_bg.png); position:fixed; width:100%; box-sizing:border-box; left:0; top:0; z-index:1314; }
+.Maindiv { width:1410px; margin:0 auto; }
+.Logo { width:151px; height:34px; margin:18px 0 }
+.Menu { margin-left:200px; }
+.Menu li { font-size:16px; color:#FFFFFF; text-decoration:none; width:156px; text-align:center; height:69px; line-height:69px; float:left; cursor:pointer;  }
+.Menu li:hover , .Menu li.Active { color:#c03732; }
+.Menu li dl { background:rgba(0,0,0,.85); margin-top:69px; position:absolute; width:154px; border:1px solid #222123; display:none;  }
+.Menu li dd { font-size:14px; color:#b5b5b6; height:30px; line-height:30px; margin:0 24px; border-bottom:1px solid #1c1c1d; cursor:pointer; }
+.Menu li dd:first-child { border-top:1px solid #c03732; margin-top:-1px; }
+.Menu li dd:hover { color:#c03732; }
+.Menu li:hover dl { display:inline-block; }
+.Search { width:252px; height:30px; margin:20px 0; background:url(../images/search_bg.png) }
+.Search input { border:0; background:none; height:30px; padding:10px; color:#FFFFFF; width:200px; outline:0; }
+.Search button { width:20px; height:20px; margin:5px 10px 0 0; background:url(../images/search_btn.png); float:right; outline:none; cursor:pointer; }
+.Mouse { height:97px; position:fixed; left:0; bottom:10px; background:url(../images/mouse.png) no-repeat center top; width:100%; }
+
+.Ctrl { position:fixed; right:80px; top:350px; z-index:1313 }
+.Ctrl li { width:10px; height:10px; border-radius:50%; margin-bottom:46px; background:#FFFFFF;  }
+.Ctrl li.Active { width:18px; height:18px; margin:-4px 0 42px -4px; }

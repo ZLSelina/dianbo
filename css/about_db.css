@@ -1,0 +1,210 @@
+.about_db_page1{
+    background: url("../images/images/about_db.jpg") no-repeat top center #A90401;
+    background-size: 100%;
+    width: 100%;
+    height:1160px;
+    position: relative;
+}
+.about_db_page1_content_1,.about_db_page1_content_2{
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+.about_db_page1_content_1{
+    top:150px;
+    text-align: right;
+}
+.about_db_page1_content_1 h1{
+    font-size:48px;
+}
+.about_db_page1_content_2{
+    top:38%;
+}
+.about_db_page1_content_2 h1{
+    line-height: 80px;
+}
+.about_db_page1_content_2_imgzs{
+    width:366px;
+    float: left;
+    margin-right: 10px;
+}
+.about_db_page1_content_2_imgzs img{
+    width: 100%;
+}
+.about_db_page1_content_2 p,.about_db_page1_content_1 p{
+    font-size: 14px; line-height: 28px;
+}
+.about_db_page1_content_2 p:nth-child(6){
+    margin: 20px 0;
+}
+.about_db_page2{
+    background-color: #000000;
+    height:auto;
+    position: relative;
+    padding-top: 5%;
+}
+.td_js{
+    position: relative;
+    text-align: center;
+}
+.td_js h2{
+    font-size:36px;
+    line-height: 72px;
+}
+.td_js p{
+    font-size: 12px;
+}
+.td_cy{
+    width: 1140px;
+    height: 445px;
+    margin:80px auto;
+    position: relative;
+}
+.td_cy_js_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:3px;
+}
+.td_cy_js_1 span{
+    width:155px;
+    height:155px;
+    background-color:
+    rgba(169,4,1,0.8);
+    -webkit-transform: rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-tansform:rotate(45deg);
+    transform:rotate(45deg);
+    position: absolute;
+    top:30px;
+    left:30px;
+    border-radius: 3px;
+}
+.td_cy_js_1 p{ text-align: center;width:155px; height:60px;position: absolute; top:77.5px; left:30px;}
+.td_cy_js_2,.td_cy_js_11{left:231px;}
+.td_cy_js_3,.td_cy_js_12{left:462px;}
+.td_cy_js_4,.td_cy_js_13{left:693px;}
+.td_cy_js_5,.td_cy_js_14{left:924px;}
+.td_cy_js_6{ top:115px; left:115px;}
+.td_cy_js_7{top:115px; left: 347px;}
+.td_cy_js_8{top:115px; left:578px;}
+.td_cy_js_9{top:115px;left:809px;}
+.td_cy_js_10,.td_cy_js_11,.td_cy_js_12,.td_cy_js_13,.td_cy_js_14{
+    top:230px;
+}
+.join_us{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.join_us a{
+    display: inline-block;
+    width: 150px;
+    height:36px;
+    line-height: 36px;
+    font-size: 18px;
+    border: 1px solid #A90401;
+    color: #A90401;
+    text-align: center;
+    position: relative;
+    left:46%;
+    cursor: pointer;
+}
+.test {
+    display: none;
+    cursor: pointer;
+}
+.hide1{
+    display: block;
+}
+
+.join_us_content{
+    background-color: #000000;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top:-700px;
+}
+.join_us_content_1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.join_us_content_1 h2{
+    color:#A90401;
+    line-height:24px;
+}
+.join_us_content_1 p{
+    font-size: 12px;
+    line-height: 24px;
+}
+.join_us_content_2,.about_db_page1_content_4{
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.join_us_content_2 img,.about_db_page1_content_4 img{
+    width: 100%;
+}
+.join_us_content_3{
+    width:100%;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    padding-top: 0;}
+.zpxx{
+    width:50%;
+    margin:0 auto;
+    border-bottom: 1px solid #A90401;
+    padding: 25px 0;
+    font-size: 12px;
+}
+.zpxx:last-child{
+    border: none;
+}
+.zpxx h2{
+    background-color: #A90401;
+    width:150px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.zpxx span{
+    line-height:24px;
+    padding-left: 10px;
+    color: #A90401;
+}
+.zpxx ul{
+    padding-left: 30px;
+}
+.zpxx ul li{
+    list-style:decimal;
+    line-height: 25px;
+}
+.about_db_page1_content_4 {
+    position: relative;
+    bottom: 20px;
+}
+
+.about_db_page1_content_5{
+    width: 250px;
+    padding: 10px 0;
+    background-color: #A90401;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+.about_db_page1_content_5 span{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+}
+
+.about_db_page1_content_6{
+    width:35px;
+    margin: 50px auto;
+}
+.about_db_page1_content_6 img{
+    width: 100%;
+}

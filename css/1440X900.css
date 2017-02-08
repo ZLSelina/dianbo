@@ -1,0 +1,124 @@
+/*1440X900*/
+/*首页*/
+.ind-bg11{
+    background-size: 95%;
+}
+.numul{
+    top:103px;
+}
+
+.active .ind-bg13{
+    margin-left:-375px;
+}
+.active .ind-bg14{
+    margin-left:-33%;
+}
+.active .ind-bg15 {
+    margin-left: -325px;
+}
+.active h2.num3, .active .p3{
+    margin-left:-600px;
+}
+.active .line3{
+    margin-left: -460px;
+}
+/*行业营销*/
+.Ptxt2{
+    margin-left:0;
+    text-align: left;
+}
+.Pimg5{
+    margin-top:245px;
+}
+.Pimg6{
+     width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+}
+.Pimg6 img{
+    max-width:100%;
+}
+.product-page6-img1{
+    width: 150px;
+    margin-left:15%;
+}
+.product-page6-img1 img{
+    max-width:100%;
+}
+/*商家定制*/
+.product_sjdz_page2_content1,.product_sjdz_page3_content1,.product_sjdz_page4_content1{
+    width:80%;
+    margin-top:20px;
+    margin-left:150px;
+}
+.product_sjdz_page2_content img:first-child{
+    margin-top: 0;
+}
+.product_sjdz_page2_content2,.product_sjdz_page3_content2,.product_sjdz_page4_content2{
+    margin-top: 10%;
+}
+/*福利激励*/
+.active .fljl_page2_content_2_1{
+    left:8%;top:8%;
+}
+.active .fljl_page2_content_2_2{
+    max-width:600px;
+}
+/*服务保障*/
+.fwbz_page1_content_1{
+    margin:130px auto;
+}
+/*案例*/
+.xjh{
+    background-size:60%;top:0;
+}
+.anli_page3_nr{
+    top:28%;
+}
+/*关于我们*/
+.about_db_page1{
+    height:970px;
+}
+.about_db_page1_content_2{
+    top:25%;
+}
+.about_db_page1_content_2_imgzs{
+    width:30%;
+}
+/*加入我们*/
+.join_us a{
+    left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
